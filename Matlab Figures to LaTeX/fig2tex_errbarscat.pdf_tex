@@ -1,0 +1,84 @@
+%% Creator: Inkscape 1.1.1 (3bf5ae0d25, 2021-09-20), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'fig2tex_errbarscat.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{226.25001526bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{fig2tex_errbarscat.pdf}}%
+    \put(0.00441995,-0.01657446){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{0}\end{tabular}}}}%
+    \put(0.10386745,-0.01657446){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{10}\end{tabular}}}}%
+    \put(0.20331495,-0.01657446){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{20}\end{tabular}}}}%
+    \put(0.30276246,-0.01657446){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{30}\end{tabular}}}}%
+    \put(0.40220997,-0.01657446){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{40}\end{tabular}}}}%
+    \put(0.50165747,-0.01657446){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{50}\end{tabular}}}}%
+    \put(0.60110498,-0.01657446){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{60}\end{tabular}}}}%
+    \put(0.70055249,-0.01657446){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{70}\end{tabular}}}}%
+    \put(0.8,-0.01657446){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{80}\end{tabular}}}}%
+    \put(0.8994475,-0.01657446){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{90}\end{tabular}}}}%
+    \put(0.99889502,-0.01657446){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{100}\end{tabular}}}}%
+    \put(0.50165781,-0.01657446){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-2.75\height}{x}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{fig2tex_errbarscat.pdf}}%
+    \put(-0.01325949,0.00110498){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{10}\end{tabular}}}}%
+    \put(-0.01325949,0.1116021){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{20}\end{tabular}}}}%
+    \put(-0.01325949,0.22209956){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{30}\end{tabular}}}}%
+    \put(-0.01325949,0.33259667){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{40}\end{tabular}}}}%
+    \put(-0.01325949,0.44309379){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{50}\end{tabular}}}}%
+    \put(-0.01325949,0.55359125){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{60}\end{tabular}}}}%
+    \put(-0.01325949,0.66408837){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{70}\end{tabular}}}}%
+    \put(-0.01325949,0.77458548){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{80}\end{tabular}}}}%
+    \put(-0.01325949,0.88508294){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{90}\end{tabular}}}}%
+    \put(-0.01325947,0.99558006){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{100}\end{tabular}}}}%
+    \put(-0.0132595,0.49834285){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{4ex}{y}\end{tabular}}}}}%
+    \put(0.50165813,1.00469608){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textbf{\raisebox{--0.5\height}{Errorbar Scatter Plot}}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{fig2tex_errbarscat.pdf}}%
+  \end{picture}%
+\endgroup%

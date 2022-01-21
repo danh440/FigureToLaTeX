@@ -1,0 +1,130 @@
+%% Creator: Inkscape 1.1.1 (3bf5ae0d25, 2021-09-20), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'fig2tex_plotmat.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{242.75001526bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0.49691104,-0.02162707){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-2.75\height}{}\end{tabular}}}}%
+    \put(-0.02162703,0.496911){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{3ex}{}\end{tabular}}}}}%
+    \put(0.50463503,0.99974248){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textbf{\raisebox{--0.5\height}{Matrix Plot}}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{fig2tex_plotmat.pdf}}%
+    \put(0.70926097,-0.00556116){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{-4}\end{tabular}}}}%
+    \put(0.79323439,-0.00556116){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{-2}\end{tabular}}}}%
+    \put(0.87720843,-0.00556116){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{0}\end{tabular}}}}%
+    \put(0.96118186,-0.00556116){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{2}\end{tabular}}}}%
+    \put(0.83522173,-0.04881554){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{fig2tex_plotmat.pdf}}%
+    \put(0.66488168,0.16477889){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{1ex}{}\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{fig2tex_plotmat.pdf}}%
+    \put(0.39264389,-0.00556116){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{-2}\end{tabular}}}}%
+    \put(0.49613832,-0.00556116){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{0}\end{tabular}}}}%
+    \put(0.59963306,-0.00556116){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{2}\end{tabular}}}}%
+    \put(0.50000002,-0.04881554){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{fig2tex_plotmat.pdf}}%
+    \put(0.32966028,0.16477889){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{1ex}{}\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{fig2tex_plotmat.pdf}}%
+    \put(0.04655545,-0.00556116){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{-2}\end{tabular}}}}%
+    \put(0.16747212,-0.00556116){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{0}\end{tabular}}}}%
+    \put(0.2883888,-0.00556116){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{2}\end{tabular}}}}%
+    \put(0.16477893,-0.04881554){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{fig2tex_plotmat.pdf}}%
+    \put(-0.00556112,0.03881813){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{-4}\end{tabular}}}}%
+    \put(-0.00556112,0.12279156){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{-2}\end{tabular}}}}%
+    \put(-0.00556112,0.2067656){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{0}\end{tabular}}}}%
+    \put(-0.00556112,0.29073903){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{2}\end{tabular}}}}%
+    \put(-0.08692075,0.16477889){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{1ex}{}\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{fig2tex_plotmat.pdf}}%
+    \put(0.83522173,0.32966024){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{fig2tex_plotmat.pdf}}%
+    \put(0.66488168,0.49999998){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{1ex}{}\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{fig2tex_plotmat.pdf}}%
+    \put(0.50000002,0.32811544){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{fig2tex_plotmat.pdf}}%
+    \put(0.32811548,0.49999998){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{1ex}{}\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{fig2tex_plotmat.pdf}}%
+    \put(0.16477893,0.32966024){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{fig2tex_plotmat.pdf}}%
+    \put(-0.00556112,0.39264386){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{-2}\end{tabular}}}}%
+    \put(-0.00556112,0.49613829){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{0}\end{tabular}}}}%
+    \put(-0.00556112,0.59963303){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{2}\end{tabular}}}}%
+    \put(-0.08692075,0.49999998){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{1ex}{}\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{fig2tex_plotmat.pdf}}%
+    \put(0.83522173,0.66488164){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{fig2tex_plotmat.pdf}}%
+    \put(0.66488168,0.83522169){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{1ex}{}\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{fig2tex_plotmat.pdf}}%
+    \put(0.50000002,0.66488164){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{fig2tex_plotmat.pdf}}%
+    \put(0.32966028,0.83522169){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{1ex}{}\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{fig2tex_plotmat.pdf}}%
+    \put(0.16477893,0.66488164){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{fig2tex_plotmat.pdf}}%
+    \put(-0.00556112,0.71699822){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{-2}\end{tabular}}}}%
+    \put(-0.00556112,0.7774564){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{-1}\end{tabular}}}}%
+    \put(-0.00556112,0.83791489){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{0}\end{tabular}}}}%
+    \put(-0.00556112,0.89837308){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{1}\end{tabular}}}}%
+    \put(-0.00556112,0.95883157){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{2}\end{tabular}}}}%
+    \put(-0.08692075,0.83522169){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{1ex}{}\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{fig2tex_plotmat.pdf}}%
+    \put(0.83522173,-0.00556116){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{fig2tex_plotmat.pdf}}%
+    \put(0.66488168,0.16477889){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{1ex}{}\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{fig2tex_plotmat.pdf}}%
+    \put(0.50000002,0.32811544){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{fig2tex_plotmat.pdf}}%
+    \put(0.32811548,0.49999998){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{1ex}{}\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{fig2tex_plotmat.pdf}}%
+    \put(0.16477893,0.66488164){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{fig2tex_plotmat.pdf}}%
+    \put(-0.00556112,0.83522169){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{1ex}{}\end{tabular}}}}}%
+  \end{picture}%
+\endgroup%

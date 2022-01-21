@@ -1,0 +1,307 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{calc}
+\usepackage{subcaption}
+\usepackage[percent]{overpic}
+\usepackage{hyperref}
+\usepackage[section]{placeins}
+
+\title{PlotToLaTeX\\ \large Matlab 2D Figures to \LaTeX}
+\author{}
+\date{January 2022}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+PlotToLaTeX saves 2D MATLAB figures as .pdf and .pdf\_tex files for inclusion into \LaTeX\ documents.
+
+PlotToLaTeX is based on Plot2LaTeX v1.2 by Jan de Jong [1]. Due to the large changes in behaviour, this is an unofficial fork rather than an unofficially updated version. PlotToLaTeX requires installations of MATLAB and Inkscape, and a Python installation with the Beautiful Soup library, bs4. Figures presented in this document are replicas of examples presented in the MATLAB plot gallery [2].
+
+PlotToLaTeX offers the following benefits over Plot2LaTeX:
+\begin{enumerate}
+    \item Improved text location, removing the need for manual correction factors and iteration of these manual adjustments
+    \item Individual files for axes, label and colorbar objects, allowing better PDF scaling \textit{e.g.} enabling the same figures to be used at both figure and subfigure scales
+    \item SVG page area is clipped to form a tight box around non-text elements, simplifying matching the axis size of multiple figures within a \LaTeX\ document. Text, including axis labels, will appear outside the \LaTeX\ figure area and will not affect figure placement.
+\end{enumerate}
+
+\section{Figure}
+Single figures (\ref{fig:arealab100}) are included using the following code:
+\begin{verbatim}
+\begin{figure}[ht]
+    \centering
+    \vspace{3ex}
+    \def\svgscale{1}
+    $\vcenter{\hbox{\input{fig2tex_arealab.pdf_tex}}}$
+    \def\svgscale{0.7}
+    $\vcenter{\hbox{\input{fig2tex_arealab_leg.pdf_tex}}}$\\
+    \vspace{3ex}
+    \caption{This figure is included at its default size,
+    with 0.7 scale legend.}
+\end{figure}
+\end{verbatim}
+
+The additional vertical space is required to account for the figure text surrounding the axis area. The figure is readily scaled by modifying the svgscale value of the main plot area (\ref{fig:arealab050}).
+
+\begin{figure}[ht]
+    \centering
+    \vspace{3ex}
+    \def\svgscale{1}
+    $\vcenter{\hbox{\input{fig2tex_arealab.pdf_tex}}}$
+    \def\svgscale{0.7}
+    $\vcenter{\hbox{\input{fig2tex_arealab_leg.pdf_tex}}}$\\
+    \vspace{3ex}
+    \caption{This figure is included at its default size,
+    with 0.7 scale legend.}
+    \label{fig:arealab100}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \def\svgscale{0.5}
+    $\vcenter{\hbox{\input{fig2tex_arealab.pdf_tex}}}$
+    \def\svgscale{0.7}
+    $\vcenter{\hbox{\input{fig2tex_arealab_leg.pdf_tex}}}$\\
+    \vspace{3ex}
+    \caption{This figure is at 0.5 scale, with 0.7 scale legend.}
+    \label{fig:arealab050}
+\end{figure}
+
+The additional vertical space is required to account for the figure text surrounding the axis area. The figure is readily scaled by modifying the svgscale value of the main plot area (\ref{fig:arealab050}). Figures can also be scaled to be a specific width, and the legend can be positioned within the axis area (\ref{fig:arealab050w}): 
+\begin{verbatim}
+\begin{figure}[ht]
+    \centering
+    \vspace{12.5ex}\hspace{-0.42\columnwidth}
+    \def\svgwidth{0.05\textwidth}
+    \input{fig2tex_arealab_leg.pdf_tex}
+    \vspace{-12.5ex}\hspace{0.42\columnwidth}\\
+    \def\svgwidth{0.5\textwidth}
+    $\vcenter{\hbox{\input{fig2tex_arealab.pdf_tex}}}$
+    \vspace{3ex}
+    \caption{This figure has a defined axis width of half
+    textwidth, and the legend (width of 0.05 textwidth) is 
+    placed within the axes.}
+\end{figure}
+\end{verbatim}
+
+\begin{figure}[ht]
+    \centering
+    \vspace{12.5ex}\hspace{-0.42\columnwidth}
+    \def\svgwidth{0.05\textwidth}
+    \input{fig2tex_arealab_leg.pdf_tex}
+    \vspace{-12.5ex}\hspace{0.42\columnwidth}\\
+    \def\svgwidth{0.5\textwidth}
+    $\vcenter{\hbox{\input{fig2tex_arealab.pdf_tex}}}$
+    \vspace{3ex}
+    \caption{This figure has a defined axis width of half textwidth, and the legend (width of 0.05 textwidth) is placed within the axes.}
+    \label{fig:arealab050w}
+\end{figure}
+
+Images may have a colorbar (\ref{fig:peakscbar050w}, \ref{fig:peakscbar085w}). The pdf\_tex files support specifying a scale or width, but not a height. When specifying by width, some manual iteration on colorbar width will be required to obtain the desired height:
+\begin{verbatim}
+\begin{figure}[ht]
+    \centering
+    %balance colorbar with hspace to centre plot axis on page centre
+    \hspace{0.036\columnwidth} 
+    \def\svgwidth{0.5\columnwidth}
+    \input{fig2tex_peakscbar.pdf_tex}
+    \def\svgwidth{0.036\columnwidth}
+    \input{fig2tex_peakscbar_cbar.pdf_tex}
+    \vspace{3ex}
+    \caption{This figure has a defined axis width of half
+    columnwidth, and includes a colorbar alongside.}
+\end{figure}
+\end{verbatim}
+
+\begin{figure}[ht]
+    \centering
+    %balance colorbar with hspace to centre plot axis on page centre
+    \hspace{0.036\columnwidth}
+    \def\svgwidth{0.5\columnwidth}
+    \input{fig2tex_peakscbar.pdf_tex}
+    \def\svgwidth{0.036\columnwidth}
+    \input{fig2tex_peakscbar_cbar.pdf_tex}
+    \vspace{3ex}
+    \caption{This figure has a defined axis width of half columnwidth,
+    and includes a colorbar alongside. An additional hspace has been
+    used to align the axes object centre-line with the page centre-line.}
+    \label{fig:peakscbar050w}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \hspace{0.0576\columnwidth}
+    \def\svgwidth{0.8\columnwidth}
+    \input{fig2tex_peakscbar.pdf_tex}
+    \def\svgwidth{0.0576\columnwidth}
+    \input{fig2tex_peakscbar_cbar.pdf_tex}\\
+    \vspace{3ex}
+    \caption{This figure has a defined axis width of 0.8 columnwidth, and includes a colorbar alongside.}
+    \label{fig:peakscbar085w}
+\end{figure}
+
+\section{Subfigure}
+Panels of figures are readily produced using subfigure, either by placing code similar to that in the previous section within subfigure environments, or by placing each object (axis, legend, colorbar) in its own subfigure environment (\ref{fig:subfigures}): 
+
+\begin{verbatim}
+\begin{figure}[ht]
+    \vspace{-15ex}
+    % place axes on the outside of each row
+    \begin{subfigure}{0.425\textwidth}
+        \def\svgwidth{1\columnwidth}
+        \input{fig2tex_arealab.pdf_tex}
+        \vspace{1ex}
+        \caption{Area plot}
+    \end{subfigure}
+    \hspace{-0.425\textwidth}
+    \begin{subfigure}{0.425\textwidth}
+        \vspace{-0.89\columnwidth}
+        \def\svgwidth{0.1\columnwidth}
+        \input{fig2tex_arealab_leg.pdf_tex}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.425\textwidth}
+        \vspace{-0.85\columnwidth}
+        \hspace{0.5\columnwidth}
+        \def\svgwidth{0.1\columnwidth}
+        \input{fig2tex_plot_leg.pdf_tex}
+    \end{subfigure}
+    \hspace{-0.425\textwidth}
+    \begin{subfigure}{0.425\textwidth}
+        \def\svgwidth{1\columnwidth}
+        \input{fig2tex_plot.pdf_tex}
+        \vspace{1ex}
+        \caption{This plot is not square}
+    \end{subfigure}\\
+    \vspace{4ex}\\
+    \begin{subfigure}{0.425\textwidth}
+        \def\svgwidth{1\columnwidth}
+        \input{fig2tex_arealab2.pdf_tex}
+        \vspace{1ex}
+        \caption{Area plot with longer labels
+        and an unnecessarily long caption}
+    \end{subfigure}
+    \hspace{-0.425\textwidth}
+    \begin{subfigure}{0.425\textwidth}
+        \vspace{-0.95\columnwidth}
+        \def\svgwidth{0.1\columnwidth}
+        \input{fig2tex_arealab2_leg.pdf_tex}
+    \end{subfigure}
+    \hspace{-0.0425\textwidth}
+    \hfill
+    \begin{subfigure}{0.425\textwidth}
+        \def\svgwidth{1\columnwidth}
+        \input{fig2tex_errbarscat.pdf_tex}
+        \vspace{1ex}
+        \caption{Errorbar scatter plot\newline}
+    \end{subfigure}\\
+    \vspace{4ex}\\
+    \begin{subfigure}{0.425\textwidth}
+        \def\svgwidth{1\columnwidth}
+        \input{fig2tex_peakscbar.pdf_tex}
+        \vspace{1ex}
+        \caption{Imagesc plot}
+    \end{subfigure}
+    \begin{subfigure}{0.425\textwidth}
+        \def\svgwidth{0.0718\columnwidth}
+        \input{fig2tex_peakscbar_cbar.pdf_tex}
+        \vspace{7.7ex}
+    \end{subfigure}
+    \hspace{-0.425\textwidth}
+    \hfill
+    \begin{subfigure}{0.425\textwidth}
+        \def\svgwidth{1\columnwidth}
+        \input{fig2tex_plotmat.pdf_tex}
+        \vspace{1ex}
+        \caption{Matrix plot}
+    \end{subfigure}\\
+    \vspace{-4ex}\\
+    \caption{Subfigures are readily aligned. Here, all axes
+    have a width of 0.85 columnwidth. Axes are all horizontally
+    aligned, despite different label text widths and the 
+    presence of legends and colorbars.}
+\end{figure}
+\end{verbatim}
+
+
+\begin{figure}[ht]
+    \vspace{-15ex}
+    % place axes on the outside of each row
+    \begin{subfigure}{0.425\textwidth}
+        \def\svgwidth{1\columnwidth}
+        \input{fig2tex_arealab.pdf_tex}
+        \vspace{1ex}
+        \caption{Area plot}
+    \end{subfigure}
+    \hspace{-0.425\textwidth}
+    \begin{subfigure}{0.425\textwidth}
+        \vspace{-0.89\columnwidth}
+        \def\svgwidth{0.1\columnwidth}
+        \input{fig2tex_arealab_leg.pdf_tex}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.425\textwidth}
+        \vspace{-0.85\columnwidth}
+        \hspace{0.5\columnwidth}
+        \def\svgwidth{0.1\columnwidth}
+        \input{fig2tex_plot_leg.pdf_tex}
+    \end{subfigure}
+    \hspace{-0.425\textwidth}
+    \begin{subfigure}{0.425\textwidth}
+        \def\svgwidth{1\columnwidth}
+        \input{fig2tex_plot.pdf_tex}
+        \vspace{1ex}
+        \caption{This plot is not square}
+    \end{subfigure}\\
+    \vspace{4ex}\\
+    \begin{subfigure}{0.425\textwidth}
+        \def\svgwidth{1\columnwidth}
+        \input{fig2tex_arealab2.pdf_tex}
+        \vspace{1ex}
+        \caption{Area plot with longer labels and an unnecessarily long caption}
+    \end{subfigure}
+    \hspace{-0.425\textwidth}
+    \begin{subfigure}{0.425\textwidth}
+        \vspace{-0.95\columnwidth}
+        \def\svgwidth{0.1\columnwidth}
+        \input{fig2tex_arealab2_leg.pdf_tex}
+    \end{subfigure}
+    \hspace{-0.0425\textwidth}
+    \hfill
+    \begin{subfigure}{0.425\textwidth}
+        \def\svgwidth{1\columnwidth}
+        \input{fig2tex_errbarscat.pdf_tex}
+        \vspace{1ex}
+        \caption{Errorbar scatter plot\newline}
+    \end{subfigure}\\
+    \vspace{4ex}\\
+    \begin{subfigure}{0.425\textwidth}
+        \def\svgwidth{1\columnwidth}
+        \input{fig2tex_peakscbar.pdf_tex}
+        \vspace{1ex}
+        \caption{Imagesc plot}
+    \end{subfigure}
+    \begin{subfigure}{0.425\textwidth}
+        \def\svgwidth{0.0718\columnwidth}
+        \input{fig2tex_peakscbar_cbar.pdf_tex}
+        \vspace{7.7ex}
+    \end{subfigure}
+    \hspace{-0.425\textwidth}
+    \hfill
+    \begin{subfigure}{0.425\textwidth}
+        \def\svgwidth{1\columnwidth}
+        \input{fig2tex_plotmat.pdf_tex}
+        \vspace{1ex}
+        \caption{Matrix plot}
+    \end{subfigure}\\
+    \vspace{-4ex}\\
+    \caption{These subfigures all have the same axis width
+    (0.425 textwidth), and are horizontally aligned.}
+    \label{fig:subfigures}
+\end{figure}
+
+\section{References}
+[1] \href{https://www.mathworks.com/matlabcentral/fileexchange/52700-plot2latex}{Plot2LaTeX}, MATLAB Central File Exchange. Retrieved January 20, 2022.
+[2] \href{https://uk.mathworks.com/products/matlab/plot-gallery.html}{MATLAB plot gallery}, Mathworks. Retrieved January 20, 2022.
+\end{document}

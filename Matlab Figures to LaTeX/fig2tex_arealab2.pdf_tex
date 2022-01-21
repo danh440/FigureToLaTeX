@@ -1,0 +1,81 @@
+%% Creator: Inkscape 1.1.1 (3bf5ae0d25, 2021-09-20), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'fig2tex_arealab2.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{225.50001526bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0.50000071,1.00803764){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textbf{\raisebox{--0.5\height}{Scaled Random Data Set Area Plot}}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{fig2tex_arealab2.pdf}}%
+    \put(0.00110871,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{5}\end{tabular}}}}%
+    \put(0.11197332,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{10}\end{tabular}}}}%
+    \put(0.22283828,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{15}\end{tabular}}}}%
+    \put(0.33370291,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{20}\end{tabular}}}}%
+    \put(0.44456754,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{25}\end{tabular}}}}%
+    \put(0.5554325,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{30}\end{tabular}}}}%
+    \put(0.66629712,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{35}\end{tabular}}}}%
+    \put(0.77716175,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{40}\end{tabular}}}}%
+    \put(0.88802671,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{45}\end{tabular}}}}%
+    \put(0.99889133,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{50}\end{tabular}}}}%
+    \put(0.50000035,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-2.25\height}{Data Point}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{fig2tex_arealab2.pdf}}%
+    \put(-0.01662955,0.00110866){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{0}\end{tabular}}}}%
+    \put(-0.01662954,0.12583149){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{2000}\end{tabular}}}}%
+    \put(-0.01662954,0.25055432){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{4000}\end{tabular}}}}%
+    \put(-0.01662954,0.37527715){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{6000}\end{tabular}}}}%
+    \put(-0.01662954,0.49999998){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{8000}\end{tabular}}}}%
+    \put(-0.01662952,0.62472281){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{10000}\end{tabular}}}}%
+    \put(-0.01662952,0.74944564){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{12000}\end{tabular}}}}%
+    \put(-0.01662952,0.87416847){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{14000}\end{tabular}}}}%
+    \put(-0.01662952,0.9988913){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{16000}\end{tabular}}}}%
+    \put(-0.01662954,0.50000064){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{6ex}{Value}\end{tabular}}}}}%
+  \end{picture}%
+\endgroup%
