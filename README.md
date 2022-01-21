@@ -1,7 +1,7 @@
 # PlotToLaTeX
 Scripts to export MATLAB figures to vector pdf &amp; pdf_tex files for inclusion to LaTeX documents.
 
-PlotToLaTeX is based on Plot2LaTeX v1.2 by Jan de Jong [1]. Due to the large changes in behaviour, this is an unofficial fork rather than an unofficially updated version. PlotToLaTeX requires installations of MATLAB and Inkscape, and a Python installation with the Beautiful Soup library, bs4.
+PlotToLaTeX is based on Plot2LaTeX v1.2 by Jan de Jong [1]. Due to the workflow breaking changes in behaviour, this is an unofficial fork rather than an unofficially updated version. PlotToLaTeX requires installations of MATLAB and Inkscape, and a Python installation with the Beautiful Soup library, bs4.
 
 PlotToLaTeX offers the following benefits over Plot2LaTeX:
 1. Improved text location, removing the need for manual correction factors and iteration of these manual adjustments
