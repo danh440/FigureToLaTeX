@@ -17,3 +17,6 @@ PlotToLaTeX offers the following benefits over Plot2LaTeX:
 - Within PlotToLaTeX.m, edit DIR_INKSC and DIR_PY values to match your installation locations
 
 Tested with MATLAB R2018b, Inkscape 1.1.1 and Python 3.7.6.
+
+# Usage
+See PlotToLaTeX.pdf
