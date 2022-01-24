@@ -13,7 +13,7 @@ PlotToLaTeX offers the following benefits over Plot2LaTeX for 2D plots:
 # Installation
 - Requires Matlab, Inkscape and Python
 - Requires bs4 python library (beautiful soup)
-- Place PlotToLaTeX.m and SVGedit.py in Matlab working directory
+- Place PlotToLaTeX.m and edit_svg.py in Matlab working directory
 - Within PlotToLaTeX.m, edit DIR_INKSC and DIR_PY values to match your installation locations
 
 Tested with MATLAB R2018b, Inkscape 1.1.1 and Python 3.7.6.
