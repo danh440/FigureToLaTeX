@@ -42,7 +42,7 @@ Single figures (\ref{fig:arealab100}) are included using the following code:
 \end{figure}
 \end{verbatim}
 
-The additional vertical space is required to account for the figure text surrounding the axis area. The figure is readily scaled by modifying the svgscale value of the main plot area (\ref{fig:arealab050}).
+The additional vertical space is required to account for the figure text surrounding the axis area. The figure can be scaled by modifying the svgscale value of the main plot area (\ref{fig:arealab050}).
 
 \begin{figure}[ht]
     \centering
@@ -68,7 +68,7 @@ The additional vertical space is required to account for the figure text surroun
     \label{fig:arealab050}
 \end{figure}
 
-The additional vertical space is required to account for the figure text surrounding the axis area. The figure is readily scaled by modifying the svgscale value of the main plot area (\ref{fig:arealab050}). Figures can also be scaled to be a specific width, and the legend can be positioned within the axis area (\ref{fig:arealab050w}): 
+Figures can also be scaled to be a specific width, and the legend can be positioned within the axis area (\ref{fig:arealab050w}): 
 \begin{verbatim}
 \begin{figure}[ht]
     \centering
@@ -162,7 +162,7 @@ Panels of figures are readily produced using subfigure, either by placing code s
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.425\textwidth}
-        \vspace{-0.85\columnwidth}
+        \vspace{-1\columnwidth}
         \hspace{0.5\columnwidth}
         \def\svgwidth{0.1\columnwidth}
         \input{fig2tex_plot_leg.pdf_tex}
@@ -217,10 +217,8 @@ Panels of figures are readily produced using subfigure, either by placing code s
         \caption{Matrix plot}
     \end{subfigure}\\
     \vspace{-4ex}\\
-    \caption{Subfigures are readily aligned. Here, all axes
-    have a width of 0.85 columnwidth. Axes are all horizontally
-    aligned, despite different label text widths and the 
-    presence of legends and colorbars.}
+    \caption{These subfigures all have the same axis width
+    (0.425 textwidth), and are horizontally aligned.}
 \end{figure}
 \end{verbatim}
 
@@ -242,7 +240,7 @@ Panels of figures are readily produced using subfigure, either by placing code s
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.425\textwidth}
-        \vspace{-0.85\columnwidth}
+        \vspace{-1\columnwidth}
         \hspace{0.5\columnwidth}
         \def\svgwidth{0.1\columnwidth}
         \input{fig2tex_plot_leg.pdf_tex}
