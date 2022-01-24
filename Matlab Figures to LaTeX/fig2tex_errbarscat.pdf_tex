@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{226.25001526bp}%
+    \setlength{\unitlength}{225.50001526bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -54,31 +54,31 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{fig2tex_errbarscat.pdf}}%
-    \put(0.00441995,-0.01657446){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{0}\end{tabular}}}}%
-    \put(0.10386745,-0.01657446){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{10}\end{tabular}}}}%
-    \put(0.20331495,-0.01657446){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{20}\end{tabular}}}}%
-    \put(0.30276246,-0.01657446){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{30}\end{tabular}}}}%
-    \put(0.40220997,-0.01657446){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{40}\end{tabular}}}}%
-    \put(0.50165747,-0.01657446){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{50}\end{tabular}}}}%
-    \put(0.60110498,-0.01657446){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{60}\end{tabular}}}}%
-    \put(0.70055249,-0.01657446){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{70}\end{tabular}}}}%
-    \put(0.8,-0.01657446){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{80}\end{tabular}}}}%
-    \put(0.8994475,-0.01657446){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{90}\end{tabular}}}}%
-    \put(0.99889502,-0.01657446){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{100}\end{tabular}}}}%
-    \put(0.50165781,-0.01657446){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-2.75\height}{x}\end{tabular}}}}%
+    \put(0.00110871,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{0}\end{tabular}}}}%
+    \put(0.10088696,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{10}\end{tabular}}}}%
+    \put(0.20066522,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{20}\end{tabular}}}}%
+    \put(0.30044349,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{30}\end{tabular}}}}%
+    \put(0.40022175,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{40}\end{tabular}}}}%
+    \put(0.50000002,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{50}\end{tabular}}}}%
+    \put(0.59977828,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{60}\end{tabular}}}}%
+    \put(0.69955654,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{70}\end{tabular}}}}%
+    \put(0.79933481,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{80}\end{tabular}}}}%
+    \put(0.89911307,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{90}\end{tabular}}}}%
+    \put(0.99889134,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{100}\end{tabular}}}}%
+    \put(0.50000035,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-2.75\height}{x}\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{fig2tex_errbarscat.pdf}}%
-    \put(-0.01325949,0.00110498){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{10}\end{tabular}}}}%
-    \put(-0.01325949,0.1116021){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{20}\end{tabular}}}}%
-    \put(-0.01325949,0.22209956){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{30}\end{tabular}}}}%
-    \put(-0.01325949,0.33259667){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{40}\end{tabular}}}}%
-    \put(-0.01325949,0.44309379){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{50}\end{tabular}}}}%
-    \put(-0.01325949,0.55359125){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{60}\end{tabular}}}}%
-    \put(-0.01325949,0.66408837){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{70}\end{tabular}}}}%
-    \put(-0.01325949,0.77458548){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{80}\end{tabular}}}}%
-    \put(-0.01325949,0.88508294){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{90}\end{tabular}}}}%
-    \put(-0.01325947,0.99558006){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{100}\end{tabular}}}}%
-    \put(-0.0132595,0.49834285){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{4ex}{y}\end{tabular}}}}}%
-    \put(0.50165813,1.00469608){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textbf{\raisebox{--0.5\height}{Errorbar Scatter Plot}}\end{tabular}}}}%
+    \put(-0.01662953,0.00110866){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{10}\end{tabular}}}}%
+    \put(-0.01662953,0.11197329){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{20}\end{tabular}}}}%
+    \put(-0.01662953,0.22283825){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{30}\end{tabular}}}}%
+    \put(-0.01662953,0.33370287){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{40}\end{tabular}}}}%
+    \put(-0.01662953,0.4445675){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{50}\end{tabular}}}}%
+    \put(-0.01662953,0.55543246){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{60}\end{tabular}}}}%
+    \put(-0.01662953,0.66629708){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{70}\end{tabular}}}}%
+    \put(-0.01662953,0.77716171){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{80}\end{tabular}}}}%
+    \put(-0.01662953,0.88802667){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{90}\end{tabular}}}}%
+    \put(-0.01662951,0.9988913){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{100}\end{tabular}}}}%
+    \put(-0.01662954,0.5000003){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{4ex}{y}\end{tabular}}}}}%
+    \put(0.50000068,1.00803764){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textbf{\raisebox{--0.5\height}{Errorbar Scatter Plot}}\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{fig2tex_errbarscat.pdf}}%
   \end{picture}%
 \endgroup%

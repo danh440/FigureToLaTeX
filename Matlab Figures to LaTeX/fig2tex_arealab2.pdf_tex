@@ -65,17 +65,15 @@
     \put(0.77716175,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{40}\end{tabular}}}}%
     \put(0.88802671,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{45}\end{tabular}}}}%
     \put(0.99889133,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{50}\end{tabular}}}}%
-    \put(0.50000035,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-2.25\height}{Data Point}\end{tabular}}}}%
+    \put(0.50000035,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-2.75\height}{Data Point}\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{fig2tex_arealab2.pdf}}%
     \put(-0.01662955,0.00110866){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{0}\end{tabular}}}}%
-    \put(-0.01662954,0.12583149){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{2000}\end{tabular}}}}%
-    \put(-0.01662954,0.25055432){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{4000}\end{tabular}}}}%
-    \put(-0.01662954,0.37527715){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{6000}\end{tabular}}}}%
-    \put(-0.01662954,0.49999998){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{8000}\end{tabular}}}}%
-    \put(-0.01662952,0.62472281){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{10000}\end{tabular}}}}%
-    \put(-0.01662952,0.74944564){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{12000}\end{tabular}}}}%
-    \put(-0.01662952,0.87416847){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{14000}\end{tabular}}}}%
-    \put(-0.01662952,0.9988913){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{16000}\end{tabular}}}}%
+    \put(-0.01662954,0.16740577){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{2000}\end{tabular}}}}%
+    \put(-0.01662954,0.33370287){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{4000}\end{tabular}}}}%
+    \put(-0.01662954,0.49999998){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{6000}\end{tabular}}}}%
+    \put(-0.01662954,0.66629708){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{8000}\end{tabular}}}}%
+    \put(-0.01662952,0.83259419){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{10000}\end{tabular}}}}%
+    \put(-0.01662952,0.9988913){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{12000}\end{tabular}}}}%
     \put(-0.01662954,0.50000064){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{6ex}{Value}\end{tabular}}}}}%
   \end{picture}%
 \endgroup%

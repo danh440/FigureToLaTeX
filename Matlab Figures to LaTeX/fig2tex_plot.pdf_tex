@@ -50,32 +50,32 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.80044352)%
+  \begin{picture}(1,1)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{fig2tex_plot.pdf}}%
-    \put(0.00110871,-0.01662954){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{0}\end{tabular}}}}%
-    \put(0.15991081,-0.01662954){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{1}\end{tabular}}}}%
-    \put(0.3187129,-0.01662954){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{2}\end{tabular}}}}%
-    \put(0.477515,-0.01662954){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{3}\end{tabular}}}}%
-    \put(0.63631676,-0.01662954){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{4}\end{tabular}}}}%
-    \put(0.79511886,-0.01662954){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{5}\end{tabular}}}}%
-    \put(0.95392095,-0.01662954){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{6}\end{tabular}}}}%
-    \put(0.50000068,-0.01662954){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-2.75\height}{x}\end{tabular}}}}%
+    \put(0.00110871,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{0}\end{tabular}}}}%
+    \put(0.15991081,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{1}\end{tabular}}}}%
+    \put(0.3187129,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{2}\end{tabular}}}}%
+    \put(0.477515,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{3}\end{tabular}}}}%
+    \put(0.63631676,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{4}\end{tabular}}}}%
+    \put(0.79511886,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{5}\end{tabular}}}}%
+    \put(0.95392095,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-1\height}{6}\end{tabular}}}}%
+    \put(0.50000068,-0.01662959){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{-2.75\height}{x}\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{fig2tex_plot.pdf}}%
-    \put(-0.01662955,0.00110871){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{-1}\end{tabular}}}}%
-    \put(-0.01662952,0.08093132){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{-0.8}\end{tabular}}}}%
-    \put(-0.01662952,0.16075393){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{-0.6}\end{tabular}}}}%
-    \put(-0.01662952,0.24057654){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{-0.4}\end{tabular}}}}%
-    \put(-0.01662952,0.32039915){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{-0.2}\end{tabular}}}}%
-    \put(-0.01662955,0.40022177){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{0}\end{tabular}}}}%
-    \put(-0.01662952,0.48004438){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{0.2}\end{tabular}}}}%
-    \put(-0.01662952,0.55986699){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{0.4}\end{tabular}}}}%
-    \put(-0.01662952,0.6396896){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{0.6}\end{tabular}}}}%
-    \put(-0.01662952,0.71951221){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{0.8}\end{tabular}}}}%
-    \put(-0.01662955,0.79933482){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{1}\end{tabular}}}}%
-    \put(-0.01662954,0.40022209){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{5ex}{y}\end{tabular}}}}}%
-    \put(0.50000067,0.80848116){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textbf{\raisebox{--0.5\height}{Example plot}}\end{tabular}}}}%
+    \put(-0.01662955,0.00110866){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{-1}\end{tabular}}}}%
+    \put(-0.01662952,0.10088692){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{-0.8}\end{tabular}}}}%
+    \put(-0.01662952,0.20066519){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{-0.6}\end{tabular}}}}%
+    \put(-0.01662952,0.30044345){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{-0.4}\end{tabular}}}}%
+    \put(-0.01662952,0.40022171){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{-0.2}\end{tabular}}}}%
+    \put(-0.01662955,0.49999998){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{0}\end{tabular}}}}%
+    \put(-0.01662952,0.59977824){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{0.2}\end{tabular}}}}%
+    \put(-0.01662952,0.69955651){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{0.4}\end{tabular}}}}%
+    \put(-0.01662952,0.79933477){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{0.6}\end{tabular}}}}%
+    \put(-0.01662952,0.89911303){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{0.8}\end{tabular}}}}%
+    \put(-0.01662955,0.9988913){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\raisebox{-0.5\height}{1}\end{tabular}}}}%
+    \put(-0.01662954,0.5000003){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\raisebox{5ex}{y}\end{tabular}}}}}%
+    \put(0.50000067,1.00803764){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textbf{\raisebox{--0.5\height}{Example plot}}\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{fig2tex_plot.pdf}}%
   \end{picture}%
 \endgroup%
