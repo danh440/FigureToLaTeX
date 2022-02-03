@@ -124,7 +124,7 @@ function PlotToLaTeX( h, filename, options )
 %DIR_INKSC = 'C:\Program Files (x86)\Inkscape\Inkscape.exe'; 
 DIR_INKSC = 'C:\Program Files\Inkscape\bin\Inkscape.exe';
 %DIR_PY = "C:\Python39\python.exe"
-DIR_PY = "C:/Users/USER/Anaconda3/python.exe";
+DIR_PY = "C:/Users/USER/Anaconda3/python.exe"; % or direct to specific environment
 % initize waitbar
 nStep = 7; Step = 0;
 hWaitBar = waitbar(Step/nStep,'Initializing');
