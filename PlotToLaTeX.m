@@ -116,15 +116,8 @@ function PlotToLaTeX( h, filename, options )
 %     applied in LaTeX
 %   - Manual offset correction no longer required in default case, and label
 %     offset in LaTeX document is independent of image scaling
-%   - 
-%% To-do:
-% - remove yCorrFactor
-% - add notes to change log
-% - add to github
-% - rename functions variables to be lower case with underscores
-% - remove z axis bits
-% - pre-allocate labels size
-% - check waitbar
+%   - Axis, label, colorbar components saved into individual files to allow for
+%     consistent sizing of one axis relative to another in LaTeX document
 
 %% Config and checks
 % Specify location of your inkscape and python installation
@@ -158,7 +151,7 @@ if nargin > 2
     end
 end
 
-%% Find most objects with text
+%% Find target objects with text
 TexObj = findall(h,'Type','Text'); % normal text, titles, x y z labels
 LegObj = findall(h,'Type','Legend'); % legend objects
 AxeObj = findall(h,'Type','Axes');  % axes containing x y z ticklabel
